@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06555BE92CB3805E00DABCE0 /* ProyectVirtualRealityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06555BE82CB3805E00DABCE0 /* ProyectVirtualRealityApp.swift */; };
+		06555BEB2CB3805E00DABCE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06555BEA2CB3805E00DABCE0 /* ContentView.swift */; };
+		06555BED2CB3805F00DABCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06555BEC2CB3805F00DABCE0 /* Assets.xcassets */; };
+		06555BF02CB3805F00DABCE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06555BEF2CB3805F00DABCE0 /* Preview Assets.xcassets */; };
+		06555BFA2CB3805F00DABCE0 /* ProyectVirtualRealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06555BF92CB3805F00DABCE0 /* ProyectVirtualRealityTests.swift */; };
+		06555C042CB3805F00DABCE0 /* ProyectVirtualRealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06555C032CB3805F00DABCE0 /* ProyectVirtualRealityUITests.swift */; };
+		06555C062CB3805F00DABCE0 /* ProyectVirtualRealityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06555C052CB3805F00DABCE0 /* ProyectVirtualRealityUITestsLaunchTests.swift */; };
+		06555C132CB3807A00DABCE0 /* datos2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 06555C122CB3807A00DABCE0 /* datos2.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06555BF62CB3805F00DABCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06555BDD2CB3805E00DABCE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06555BE42CB3805E00DABCE0;
+			remoteInfo = ProyectVirtualReality;
+		};
+		06555C002CB3805F00DABCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06555BDD2CB3805E00DABCE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06555BE42CB3805E00DABCE0;
+			remoteInfo = ProyectVirtualReality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06555BE52CB3805E00DABCE0 /* ProyectVirtualReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectVirtualReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06555BE82CB3805E00DABCE0 /* ProyectVirtualRealityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectVirtualRealityApp.swift; sourceTree = "<group>"; };
+		06555BEA2CB3805E00DABCE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06555BEC2CB3805F00DABCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06555BEF2CB3805F00DABCE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06555BF52CB3805F00DABCE0 /* ProyectVirtualRealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectVirtualRealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06555BF92CB3805F00DABCE0 /* ProyectVirtualRealityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectVirtualRealityTests.swift; sourceTree = "<group>"; };
+		06555BFF2CB3805F00DABCE0 /* ProyectVirtualRealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectVirtualRealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06555C032CB3805F00DABCE0 /* ProyectVirtualRealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectVirtualRealityUITests.swift; sourceTree = "<group>"; };
+		06555C052CB3805F00DABCE0 /* ProyectVirtualRealityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectVirtualRealityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06555C122CB3807A00DABCE0 /* datos2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datos2.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06555BE22CB3805E00DABCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BF22CB3805F00DABCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BFC2CB3805F00DABCE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06555BDC2CB3805E00DABCE0 = {
+			isa = PBXGroup;
+			children = (
+				06555BE72CB3805E00DABCE0 /* ProyectVirtualReality */,
+				06555BF82CB3805F00DABCE0 /* ProyectVirtualRealityTests */,
+				06555C022CB3805F00DABCE0 /* ProyectVirtualRealityUITests */,
+				06555BE62CB3805E00DABCE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06555BE62CB3805E00DABCE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06555BE52CB3805E00DABCE0 /* ProyectVirtualReality.app */,
+				06555BF52CB3805F00DABCE0 /* ProyectVirtualRealityTests.xctest */,
+				06555BFF2CB3805F00DABCE0 /* ProyectVirtualRealityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06555BE72CB3805E00DABCE0 /* ProyectVirtualReality */ = {
+			isa = PBXGroup;
+			children = (
+				06555C122CB3807A00DABCE0 /* datos2.csv */,
+				06555BE82CB3805E00DABCE0 /* ProyectVirtualRealityApp.swift */,
+				06555BEA2CB3805E00DABCE0 /* ContentView.swift */,
+				06555BEC2CB3805F00DABCE0 /* Assets.xcassets */,
+				06555BEE2CB3805F00DABCE0 /* Preview Content */,
+			);
+			path = ProyectVirtualReality;
+			sourceTree = "<group>";
+		};
+		06555BEE2CB3805F00DABCE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06555BEF2CB3805F00DABCE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06555BF82CB3805F00DABCE0 /* ProyectVirtualRealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				06555BF92CB3805F00DABCE0 /* ProyectVirtualRealityTests.swift */,
+			);
+			path = ProyectVirtualRealityTests;
+			sourceTree = "<group>";
+		};
+		06555C022CB3805F00DABCE0 /* ProyectVirtualRealityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06555C032CB3805F00DABCE0 /* ProyectVirtualRealityUITests.swift */,
+				06555C052CB3805F00DABCE0 /* ProyectVirtualRealityUITestsLaunchTests.swift */,
+			);
+			path = ProyectVirtualRealityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06555BE42CB3805E00DABCE0 /* ProyectVirtualReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06555C092CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualReality" */;
+			buildPhases = (
+				06555BE12CB3805E00DABCE0 /* Sources */,
+				06555BE22CB3805E00DABCE0 /* Frameworks */,
+				06555BE32CB3805E00DABCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectVirtualReality;
+			productName = ProyectVirtualReality;
+			productReference = 06555BE52CB3805E00DABCE0 /* ProyectVirtualReality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06555BF42CB3805F00DABCE0 /* ProyectVirtualRealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06555C0C2CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualRealityTests" */;
+			buildPhases = (
+				06555BF12CB3805F00DABCE0 /* Sources */,
+				06555BF22CB3805F00DABCE0 /* Frameworks */,
+				06555BF32CB3805F00DABCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06555BF72CB3805F00DABCE0 /* PBXTargetDependency */,
+			);
+			name = ProyectVirtualRealityTests;
+			productName = ProyectVirtualRealityTests;
+			productReference = 06555BF52CB3805F00DABCE0 /* ProyectVirtualRealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06555BFE2CB3805F00DABCE0 /* ProyectVirtualRealityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06555C0F2CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualRealityUITests" */;
+			buildPhases = (
+				06555BFB2CB3805F00DABCE0 /* Sources */,
+				06555BFC2CB3805F00DABCE0 /* Frameworks */,
+				06555BFD2CB3805F00DABCE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06555C012CB3805F00DABCE0 /* PBXTargetDependency */,
+			);
+			name = ProyectVirtualRealityUITests;
+			productName = ProyectVirtualRealityUITests;
+			productReference = 06555BFF2CB3805F00DABCE0 /* ProyectVirtualRealityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06555BDD2CB3805E00DABCE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					06555BE42CB3805E00DABCE0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					06555BF42CB3805F00DABCE0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06555BE42CB3805E00DABCE0;
+					};
+					06555BFE2CB3805F00DABCE0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06555BE42CB3805E00DABCE0;
+					};
+				};
+			};
+			buildConfigurationList = 06555BE02CB3805E00DABCE0 /* Build configuration list for PBXProject "ProyectVirtualReality" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06555BDC2CB3805E00DABCE0;
+			productRefGroup = 06555BE62CB3805E00DABCE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06555BE42CB3805E00DABCE0 /* ProyectVirtualReality */,
+				06555BF42CB3805F00DABCE0 /* ProyectVirtualRealityTests */,
+				06555BFE2CB3805F00DABCE0 /* ProyectVirtualRealityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06555BE32CB3805E00DABCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06555BF02CB3805F00DABCE0 /* Preview Assets.xcassets in Resources */,
+				06555C132CB3807A00DABCE0 /* datos2.csv in Resources */,
+				06555BED2CB3805F00DABCE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BF32CB3805F00DABCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BFD2CB3805F00DABCE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06555BE12CB3805E00DABCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06555BEB2CB3805E00DABCE0 /* ContentView.swift in Sources */,
+				06555BE92CB3805E00DABCE0 /* ProyectVirtualRealityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BF12CB3805F00DABCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06555BFA2CB3805F00DABCE0 /* ProyectVirtualRealityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06555BFB2CB3805F00DABCE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06555C062CB3805F00DABCE0 /* ProyectVirtualRealityUITestsLaunchTests.swift in Sources */,
+				06555C042CB3805F00DABCE0 /* ProyectVirtualRealityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06555BF72CB3805F00DABCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06555BE42CB3805E00DABCE0 /* ProyectVirtualReality */;
+			targetProxy = 06555BF62CB3805F00DABCE0 /* PBXContainerItemProxy */;
+		};
+		06555C012CB3805F00DABCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06555BE42CB3805E00DABCE0 /* ProyectVirtualReality */;
+			targetProxy = 06555C002CB3805F00DABCE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06555C072CB3805F00DABCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06555C082CB3805F00DABCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06555C0A2CB3805F00DABCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProyectVirtualReality/Preview Content\"";
+				DEVELOPMENT_TEAM = P2B8GBB5KP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Yes;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualReality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06555C0B2CB3805F00DABCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProyectVirtualReality/Preview Content\"";
+				DEVELOPMENT_TEAM = P2B8GBB5KP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Yes;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualReality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06555C0D2CB3805F00DABCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualRealityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectVirtualReality.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectVirtualReality";
+			};
+			name = Debug;
+		};
+		06555C0E2CB3805F00DABCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualRealityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProyectVirtualReality.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProyectVirtualReality";
+			};
+			name = Release;
+		};
+		06555C102CB3805F00DABCE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualRealityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectVirtualReality;
+			};
+			name = Debug;
+		};
+		06555C112CB3805F00DABCE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Paco-STEM.ProyectVirtualRealityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProyectVirtualReality;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06555BE02CB3805E00DABCE0 /* Build configuration list for PBXProject "ProyectVirtualReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06555C072CB3805F00DABCE0 /* Debug */,
+				06555C082CB3805F00DABCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06555C092CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06555C0A2CB3805F00DABCE0 /* Debug */,
+				06555C0B2CB3805F00DABCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06555C0C2CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualRealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06555C0D2CB3805F00DABCE0 /* Debug */,
+				06555C0E2CB3805F00DABCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06555C0F2CB3805F00DABCE0 /* Build configuration list for PBXNativeTarget "ProyectVirtualRealityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06555C102CB3805F00DABCE0 /* Debug */,
+				06555C112CB3805F00DABCE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06555BDD2CB3805E00DABCE0 /* Project object */;
+}
