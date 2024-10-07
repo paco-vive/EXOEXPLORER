@@ -26,7 +26,7 @@ We are **ExoExplorer**—thank you for exploring with us!
 3. **[EXOEXPLORER: User Frontend and Database](https://github.com/paco-vive/EXOEXPLORER_UserFrontendDataBase)**  
    Combines frontend development and database integration to store space-related data, ensuring smooth and personalized navigation.
 
-4. **[EXOEXPLORER: Video Games](https://github.com/paco-vive/EXOEXPLORER_VideoGames)**  
+4. **[EXOEXPLORER: Video Games](https://github.com/SebastianReneGH/GAMES)**  
    Adds gamification elements to enhance space exploration with an interactive gaming experience.
 
 5. **[EXOEXPLORER: Wireframe](https://drive.google.com/file/d/1M6i1jZwuSccBrPBDROriQhvai8s9Si24/view?usp=sharing)**  
