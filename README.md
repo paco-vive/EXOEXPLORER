@@ -29,7 +29,7 @@ We are **ExoExplorer**—thank you for exploring with us!
 4. **[EXOEXPLORER: Video Games](https://github.com/paco-vive/EXOEXPLORER_VideoGames)**  
    Adds gamification elements to enhance space exploration with an interactive gaming experience.
 
-5. **[EXOEXPLORER: Wireframe](https://github.com/paco-vive/EXOEXPLORER_WireFrame)**  
+5. **[EXOEXPLORER: Wireframe](https://drive.google.com/file/d/1M6i1jZwuSccBrPBDROriQhvai8s9Si24/view?usp=sharing)**  
    Outlines key interface elements and user flow, structuring the app’s navigation experience effectively.
 
 --- 
